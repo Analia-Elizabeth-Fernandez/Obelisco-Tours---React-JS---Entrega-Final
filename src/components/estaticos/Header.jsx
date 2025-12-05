@@ -2,15 +2,14 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './styleEstatico.css'
 import Cart from '../Cart'
-import logo from '../assets/obelisco.png';
+import logo from '../assets/obelisco.png'; 
 
 const Header = () => {
   
 
   return (
     <header>
-      <nav><img src="https://raw.githubusercontent.com/Analia-Elizabeth-Fernandez/Obelisco-Tours---React-JS---Entrega-Final/main/src/assets/obelisco.png" alt="logo" width="50" height="50" />
-
+      <img src={logo} alt="logo" width="50" height="50" />
         <ul> 
           <li><Link to='/' className='link'>Bienvenidos</Link></li>
           <li><Link to='/NuestrosTours' className='link'>Nuestros Tours</Link></li>
@@ -26,6 +25,7 @@ const Header = () => {
 
 
 export default Header
+
 
 
 
