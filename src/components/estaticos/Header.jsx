@@ -9,6 +9,7 @@ const Header = () => {
 
   return (
     <header>
+      <img alt="logo" width="50" height="50" src="public/img/obelisco.png">
         <ul> 
           <li><Link to='/' className='link'>Bienvenidos</Link></li>
           <li><Link to='/NuestrosTours' className='link'>Nuestros Tours</Link></li>
@@ -24,6 +25,7 @@ const Header = () => {
 
 
 export default Header
+
 
 
 
