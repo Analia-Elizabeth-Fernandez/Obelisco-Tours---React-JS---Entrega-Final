@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './styleEstatico.css'
 import Cart from '../Cart'
-import logo from '../assets/obelisco.png'; 
+import logo from '../../assets/obelisco.png'; 
 
 const Header = () => {
   
@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <header>
        <nav>
-        <img src={logo} alt="Logo Obelisco Tours" />
+        <img src={logo} alt="Obelisco Tours" />
         <ul> 
           <li><Link to='/' className='link'>Bienvenidos</Link></li>
           <li><Link to='/NuestrosTours' className='link'>Nuestros Tours</Link></li>
@@ -26,6 +26,7 @@ const Header = () => {
 
 
 export default Header
+
 
 
 
